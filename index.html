@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy tính</title>
+</head>
+<table width="50%">
+    <tr><td><input id="numberA" type="text" name="numberA"/></td>
+        <td><input id="numberB" type="text" name="numberB"/></td></tr>
+</table>
+<body>
+    <form action="index.html" method="get" name="calculator"> <table width="50%">
+        <tr><td><input type="button" value="Addition(+)" name="plus" onclick="addPlus()"></td>
+        <td><input type="button" value="Subtraction(-)" name="minus" onclick="addMinus()"></td>
+        <td><input type="button" value="Multiplication(x)" name="times" onclick="addTimes()"></td>
+            <td><input type="button" value="Division(/)" name="div"  onclick="addDiv()"></td></tr>
+    </form> </table>
+    <table width="20%">
+        <tr><td><p style="color: blue"> Result: </p></td>
+            <td><p type="text" name="display" id="display" align="left"></p></td></tr>
+    </table>
+    <script src="js.js"></script>
+</body>
+</html>
